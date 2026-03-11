@@ -159,6 +159,18 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid rgba(255,255,255,0.9);
 }
 
+.nav-login {
+    background: rgba(255,255,255,0.2);
+    padding: 0.4rem 1rem !important;
+    border-radius: 6px;
+}
+
+.nav-login:hover,
+.nav-login.active {
+    background: rgba(255,255,255,0.3);
+    border-bottom: none !important;
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #1e3c72 0%, #0f2744 100%);
@@ -379,6 +391,21 @@ h1, h2, h3, h4, h5, h6 {
 /* Content Section */
 .content-section {
     padding: 60px 20px;
+}
+
+.impact-prose {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.impact-prose p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.75;
+}
+
+.impact-prose p:last-child {
+    margin-bottom: 0;
 }
 
 /* Mission Page */
@@ -925,6 +952,38 @@ h1, h2, h3, h4, h5, h6 {
     outline: none;
     border-color: #1e3c72;
     box-shadow: 0 0 0 3px rgba(30, 60, 114, 0.15);
+}
+
+/* Login / Sign up page */
+.login-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.login-card {
+    background: #f8fafc;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.login-card h2 {
+    color: #1e3c72;
+    margin-bottom: 0.75rem;
+    font-size: 1.75rem;
+}
+
+.login-description {
+    color: #64748b;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.login-form .form-group:last-of-type {
+    margin-bottom: 1.5rem;
 }
 
 .office-hours {
