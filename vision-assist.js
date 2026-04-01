@@ -92,7 +92,7 @@ class VisionAssistAI {
                 position: fixed;
                 bottom: 20px;
                 right: 20px;
-                background: linear-gradient(135deg, #1e3c72 0%, #0f2744 100%);
+                background: linear-gradient(135deg, #2B4C6A 0%, #1a3547 100%);
                 color: white;
                 border: none;
                 padding: 15px 25px;
@@ -131,7 +131,7 @@ class VisionAssistAI {
             }
             
             .vision-assist-header {
-                background: linear-gradient(135deg, #1e3c72 0%, #0f2744 100%);
+                background: linear-gradient(135deg, #2B4C6A 0%, #1a3547 100%);
                 color: white;
                 padding: 20px;
                 border-radius: 15px 15px 0 0;
@@ -176,7 +176,7 @@ class VisionAssistAI {
             }
             
             .control-group h3 {
-                color: #1e3c72;
+                color: #2B4C6A;
                 margin-bottom: 15px;
                 font-size: 1.1rem;
             }
@@ -186,9 +186,9 @@ class VisionAssistAI {
                 padding: 12px;
                 margin-bottom: 10px;
                 background: #e2e8f0;
-                border: 2px solid #1e3c72;
+                border: 2px solid #2B4C6A;
                 border-radius: 8px;
-                color: #1e3c72;
+                color: #2B4C6A;
                 font-size: 14px;
                 font-weight: 600;
                 cursor: pointer;
@@ -196,12 +196,12 @@ class VisionAssistAI {
             }
             
             .control-btn:hover {
-                background: #1e3c72;
+                background: #2B4C6A;
                 color: white;
             }
             
             .control-btn.active {
-                background: #1e3c72;
+                background: #2B4C6A;
                 color: white;
             }
             
@@ -229,7 +229,7 @@ class VisionAssistAI {
                 width: 20px;
                 height: 20px;
                 border-radius: 50%;
-                background: #1e3c72;
+                background: #2B4C6A;
                 cursor: pointer;
             }
             
@@ -256,7 +256,7 @@ class VisionAssistAI {
             }
             
             .voice-status.listening {
-                background: #1e3c72;
+                background: #2B4C6A;
                 color: white;
                 animation: pulse 1.5s infinite;
             }
@@ -271,11 +271,11 @@ class VisionAssistAI {
             }
             
             .high-contrast * {
-                border-color: #0f2744 !important;
+                border-color: #1a3547 !important;
             }
             
             .link-highlighted {
-                outline: 3px solid #0f2744 !important;
+                outline: 3px solid #1a3547 !important;
                 outline-offset: 2px;
             }
             
