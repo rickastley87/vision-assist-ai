@@ -408,6 +408,52 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 
+.impact-prose .impact-chunk {
+    margin-bottom: 2.75rem;
+}
+
+.impact-prose .impact-chunk:last-child {
+    margin-bottom: 0;
+}
+
+.impact-prose .impact-chunk h2 {
+    font-size: clamp(1.35rem, 3vw, 1.65rem);
+    color: #1e3c72;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.impact-prose .impact-chunk p {
+    margin-bottom: 0;
+}
+
+.horizons-heading {
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+    color: #1e3c72;
+}
+
+.horizons-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.horizons-list li {
+    padding: 1rem 0 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+    border-left: 4px solid #1e3c72;
+    background: #e2e8f0;
+    border-radius: 0 8px 8px 0;
+    font-size: 1.05rem;
+    line-height: 1.65;
+}
+
+.horizons-list li:last-child {
+    margin-bottom: 0;
+}
+
 /* Mission Page */
 .mission-content {
     max-width: 900px;
